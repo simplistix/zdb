@@ -28,10 +28,11 @@ Zope Debugger
 
   Changes
 
-     0.7.0
+     0.8.0 
 
        - Initial Release featuring the ability to set break points and
-         view source code locations within Script (Python)'s
+         view source code locations within Script (Python)'s and
+         FSPythonSCript's
 
   Credits
 
@@ -49,6 +50,3 @@ Zope Debugger
 
     - Add traceback improvements such as ZPT hints into the traceback
       module's exception formatting
-
-    - Add support for FS Python Scripts
-

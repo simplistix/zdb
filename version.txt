@@ -1,1 +1,1 @@
-ZDB TRUNK
+ZDB 0.8.0
