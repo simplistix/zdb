@@ -1,3 +1,8 @@
+# Copyright (c) 2005 Simplistix Ltd
+#
+# This Software is released under the MIT License:
+# http://www.opensource.org/licenses/mit-license.html
+# See license.txt for more details.
 from Acquisition import aq_parent
 from Products.PythonScripts.PythonScript import PythonScript
 

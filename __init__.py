@@ -1,4 +1,8 @@
-# (c) Simplistix 2005
+# Copyright (c) 2005 Simplistix Ltd
+#
+# This Software is released under the MIT License:
+# http://www.opensource.org/licenses/mit-license.html
+# See license.txt for more details.
 from AccessControl import ModuleSecurityInfo
 from App.FactoryDispatcher import FactoryDispatcher
 from bdb import Bdb
