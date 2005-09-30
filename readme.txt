@@ -4,7 +4,7 @@ Zope Debugger
 
   To install, unpack the zdb tarball into the Products directory of
   your instance and restart Zope. Once restarted, you should visit
-  /manage_addProduct/zdb/recompile of your server in a
+  /manage_addProduct/zdb/debug_compile of your server in a
   browser.
 
   To use, in any code which you would like to debug, just insert the
