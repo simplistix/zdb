@@ -61,8 +61,8 @@ def initialize(context):
         fd = pack.__FactoryDispatcher__ = __FactoryDispatcher__
 
     if not hasattr(pack, '_m'): pack._m=fd.__dict__
-    pack._m['debug_compile'] = debug_compile
-    pack._m['debug_compile__roles__'] = ('Manager',)
+    setattr(fd,'debug_compile',debug_compile)
+    setattr(fd,'debug_compile__roles__',('Manager',))
 
 # utility stuff
 
