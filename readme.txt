@@ -18,6 +18,12 @@ Zope Debugger
       use. It should ONLY be installed on servers where you need to
       carry out debugging!
 
+  Known Problems
+
+     zdb is currently incompatible with the WingDbg product that ships
+     with WingIDE. Contact has been made with WingIDE's authors to try
+     and resolve this problem. 
+
   Licensing
 
      Copyright (c) 2005 Simplistix Ltd
@@ -27,6 +33,14 @@ Zope Debugger
      See license.txt for more details.
 
   Changes
+
+     0.8.1
+
+       - Added compatibility with both Zope 2.7 and Zope 2.8
+
+       - Noted incompatability with WingIDE's WingDbg product.
+
+       - Fixed documentation of how to run the debug_compile script. 
 
      0.8.0 
 
