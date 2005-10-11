@@ -34,6 +34,14 @@ Zope Debugger
 
   Changes
 
+     0.8.1
+
+       - Added compatibility with both Zope 2.7 and Zope 2.8
+
+       - Noted incompatability with WingIDE's WingDbg product.
+
+       - Fixed documentation of how to run the debug_compile script. 
+
      0.8.0 
 
        - Initial Release featuring the ability to set break points and
