@@ -33,6 +33,10 @@ Zope Debugger
      See license.txt for more details.
 
   Changes
+ 
+     0.8.2
+
+       - Added compatability with Zope 2.9 and Python 2.4
 
      0.8.1
 
