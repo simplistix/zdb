@@ -13,11 +13,19 @@ import RestrictedPython
 
 ps_fncache = {}
 
-def monkey_checkcache():
+def monkey_checkcache(filename=None):
     """Discard cache entries that are out of date...
     ...and aren't PythonScripts!"""
 
-    for filename in linecache.cache.keys():
+    if filename is None:
+        filenames = linecache.cache.keys()
+    else:
+        if filename in linecache.cache.keys():
+            filenames = [filename]
+        else:
+            return
+        
+    for filename in filenames:
         size, mtime, lines, fullname = linecache.cache[filename]
         if mtime==0:
             continue

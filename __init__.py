@@ -20,6 +20,8 @@ class Zdb(Pdb):
         self.rcLines = []
         self.prompt = '(zdb) '
         self.aliases = {}
+        self.mainpyfile = ''
+        self._wait_for_mainpyfile = 0
 
     def canonic(self, filename):
         if monkeypatch.ps_fncache.has_key(filename):
