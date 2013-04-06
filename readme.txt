@@ -34,6 +34,10 @@ Zope Debugger
 
   Changes
  
+     0.8.3
+
+       - Added compatability with Python 2.6
+
      0.8.2
 
        - Added compatability with Zope 2.9 and Python 2.4
@@ -61,6 +65,8 @@ Zope Debugger
 
     - The excellent Plone Conference in Vienna, 2005, for a great place
       to write the code!
+
+    - Jean Jordaan for the Python 2.6 patch.
 
   To-Do
 
