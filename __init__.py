@@ -1,4 +1,4 @@
-# Copyright (c) 2005 Simplistix Ltd
+# Copyright (c) 2005-2013 Simplistix Ltd
 #
 # This Software is released under the MIT License:
 # http://www.opensource.org/licenses/mit-license.html
@@ -22,6 +22,7 @@ class Zdb(Pdb):
         self.aliases = {}
         self.mainpyfile = ''
         self._wait_for_mainpyfile = 0
+        self.commands_defining = None
 
     def canonic(self, filename):
         if monkeypatch.ps_fncache.has_key(filename):
